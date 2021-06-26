@@ -1,4 +1,4 @@
-Robot Base Control Panel 🥏
+# Robot Base Control Panel 🥏
 
 The Interface of the control panel is designed with 5 buttons (Forward, Left, Stop, Right, Backward) to control the direction of movement of the robot.
 when one of the buttons clicked a single character is stored in the database 
