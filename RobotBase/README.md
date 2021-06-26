@@ -5,7 +5,7 @@ when one of the buttons clicked a single character is stored in the database
 
 F ---> Forward    |   L ---> Left   |   S ---> stop   |   R ---> Right    |   B ---> Backward
 
-then the character retrieved and displayed in the page (ShowCurrentInput.php) which will be connected with the hardware. 📟
+Then the character retrieved and displayed in the page (ShowCurrentInput.php) which will be connected with the hardware. 📟
 
 
 Technologies used:
