@@ -1,0 +1,1001 @@
+{
+  "intents": [],
+  "entities": [
+    {
+      "entity": "General_Greeting_Arabic",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "السلام عليكم ورحمة الله وبركاته",
+          "synonyms": [
+            "السلام عليكم",
+            "السلام عليكم ورحمة الله"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "صباح الخير",
+          "synonyms": [
+            "صباح النور",
+            "صبحك الله بالخير"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "كيف حالك؟",
+          "synonyms": [
+            "كيف حالك اليوم؟",
+            "كيفك",
+            "هل أنت بخير؟",
+            "وش أخبارك؟",
+            "وش اخبارك"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "مساء الخير",
+          "synonyms": [
+            "مساء النور",
+            "مساك الله بالخير"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "هلا",
+          "synonyms": [
+            "أهلاً",
+            "أهلًا",
+            "أهلين",
+            "اهلا",
+            "اهلاً",
+            "اهلًا",
+            "اهلين",
+            "مرحبا",
+            "مرحباً",
+            "مرحبًا",
+            "هاي"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "General_Greeting_English",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good evening",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Good Morning",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Hi",
+          "synonyms": [
+            "Hello",
+            "Hey",
+            "Welcome"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "How Are you",
+          "synonyms": [
+            "Are u ok",
+            "Are you ok",
+            "How are you today",
+            "How r u",
+            "How r u today"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "General_Questions",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Are you a human?",
+          "synonyms": [
+            "Are you a human",
+            "Are you a human or a robot?",
+            "Are you a robot?",
+            "who are you"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "How many languages do you speak?",
+          "synonyms": [
+            "‎‪What languages do u speak",
+            "‎‪What languages do u speak?",
+            "What languages do you speak",
+            "What languages do you speak?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "What is your name?",
+          "synonyms": [
+            "ur name?",
+            "What is ur name",
+            "What is ur name?",
+            "What is your name",
+            "your name?"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "كم لغة تتحدث؟",
+          "synonyms": [
+            "ايش اللغات اللي تتكلمها",
+            "كم لغة تتكلم",
+            "ما هي اللغات التي تتحدثها",
+            "‎‫وش اللغات اللي تتكلمها"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ماهو اسمك؟",
+          "synonyms": [
+            "ايش اسمك",
+            "عندك اسم",
+            "عندك اسم؟",
+            "ما اسمك",
+            "ما اسمك؟",
+            "ماهو اسمك",
+            "وش اسمك"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "هل أنت إنسان؟",
+          "synonyms": [
+            "أنت إنسان ",
+            "أنت إنسان ولا روبوت",
+            "أنت ايش",
+            "أنت روبوت؟",
+            "أنت شخص حقيقي؟",
+            "من أنت؟",
+            "مين أنت"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "General_Words",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Good Bye",
+          "synonyms": [
+            "bye"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Thank you",
+          "synonyms": [
+            "thanks",
+            "Thank u"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "إلى اللقاء",
+          "synonyms": [
+            "الى اللقاء ",
+            "باي",
+            "مع السلامة"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "شكرًا",
+          "synonyms": [
+            "أشكرك",
+            "شكرا",
+            "شكراً",
+            "شكرا جزيلا",
+            "شكرًا جزيلًا",
+            "شكرًا لك"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Languages",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "العربية",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "Rates",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Bad",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Excellent",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Good",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "جيد",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "سيئ",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "ممتاز",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "When Language Is Selected",
+      "parent": "node_4_1624990510679",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Languages",
+      "dialog_node": "node_10_1625150579565",
+      "previous_sibling": "response_4_1625160574939"
+    },
+    {
+      "type": "standard",
+      "title": "When assistant started ",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Language Please | اختر اللغة من فضلك",
+            "options": [
+              {
+                "label": "العربية",
+                "value": {
+                  "input": {
+                    "text": "العربية"
+                  }
+                }
+              },
+              {
+                "label": "English",
+                "value": {
+                  "input": {
+                    "text": "English"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {
+        "_customization": {
+          "mcr": false
+        }
+      },
+      "conditions": "welcome",
+      "dialog_node": "node_4_1624990510679"
+    },
+    {
+      "type": "standard",
+      "title": "General Questions",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@General_Questions",
+      "dialog_node": "node_8_1625162732115",
+      "previous_sibling": "مرحبا"
+    },
+    {
+      "type": "standard",
+      "title": "When rate selected",
+      "parent": "node_10_1625150579565",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@Rates",
+      "dialog_node": "node_9_1625162542697"
+    },
+    {
+      "type": "standard",
+      "title": "General Words",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@General_Words",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_9_1625191053086",
+      "previous_sibling": "node_8_1625162732115"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "مرحبًا بك، سررنا بزيارتك :) ماهو تقييمك للحفل؟",
+            "options": [
+              {
+                "label": "سيىء",
+                "value": {
+                  "input": {
+                    "text": "سيىء"
+                  }
+                }
+              },
+              {
+                "label": "جيد",
+                "value": {
+                  "input": {
+                    "text": "جيد"
+                  }
+                }
+              },
+              {
+                "label": "ممتاز",
+                "value": {
+                  "input": {
+                    "text": "ممتاز"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1625150579565",
+      "conditions": "@Languages:العربية",
+      "dialog_node": "response_10_1625161293931",
+      "previous_sibling": "node_9_1625162542697"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Morning :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_English:(Good Morning)",
+      "dialog_node": "response_10_1625162196337",
+      "previous_sibling": "response_9_1625162132012"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "عفوًا :)",
+            "إنه من دواعي سروري :)"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "parent": "node_9_1625191053086",
+      "conditions": "@General_Words:(شكرًا)",
+      "dialog_node": "response_10_1625191085336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "بخير الحمد لله، كيف حالك أنت؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_Arabic:(كيف حالك؟)",
+      "dialog_node": "response_1_1625161028575",
+      "previous_sibling": "response_7_1625160801866"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi"
+              },
+              {
+                "text": "Hello"
+              },
+              {
+                "text": "Hey "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_English:Hi",
+      "dialog_node": "response_1_1625162103144",
+      "previous_sibling": "response_1_1625161028575"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "!يسعدنا ذلك، شكرًا لك"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:ممتاز",
+      "dialog_node": "response_1_1625162588042"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "text": {
+          "values": [
+            "لست شخص حقيقي، أنا روبوت "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(هل أنت إنسان؟)",
+      "dialog_node": "response_1_1625185882809"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "اسمي واتسون"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(ماهو اسمك؟)",
+      "dialog_node": "response_1_1625188071541",
+      "previous_sibling": "response_2_1625186805637"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Thanks for rating! Any suggestion?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:Good",
+      "dialog_node": "response_1_1625189778577",
+      "previous_sibling": "response_8_1625189768996"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "سررت بالتحدث إليك :) إلى اللقاء "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625191053086",
+      "conditions": "@General_Words:(إلى اللقاء)",
+      "dialog_node": "response_1_1625191401152",
+      "previous_sibling": "response_6_1625191133764"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I speak 2 languages, Arabic and English"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(How many languages do you speak?)",
+      "dialog_node": "response_2_1625186805637",
+      "previous_sibling": "response_6_1625186597513"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "That's sad, but we all need the constructive criticism for the better ✦ Any suggestion?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:Bad",
+      "dialog_node": "response_2_1625189787444",
+      "previous_sibling": "response_1_1625189778577"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "أهلًا"
+              },
+              {
+                "text": "مرحبًا بك"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_Arabic:هلا",
+      "dialog_node": "response_3_1625160705904",
+      "previous_sibling": "response_7_1625160685478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Choose Language Please | اختر اللغة من فضلك",
+            "options": [
+              {
+                "label": "العربية",
+                "value": {
+                  "input": {
+                    "text": "العربية"
+                  }
+                }
+              },
+              {
+                "label": "English",
+                "value": {
+                  "input": {
+                    "text": "English"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_4_1624990510679",
+      "disabled": true,
+      "dialog_node": "response_4_1625160574939"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Good Evening :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_English:(Good evening)",
+      "dialog_node": "response_4_1625162207118",
+      "previous_sibling": "response_10_1625162196337"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I enjoyed talking to you :) Bye"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625191053086",
+      "conditions": "@General_Words:(Good Bye)",
+      "dialog_node": "response_5_1625191448489",
+      "previous_sibling": "response_1_1625191401152"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "صباح النور"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_Arabic:(صباح الخير)",
+      "dialog_node": "response_6_1625160782473",
+      "previous_sibling": "response_3_1625160705904"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm not a real person, I'm a robot"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(Are you a human?)",
+      "dialog_node": "response_6_1625186597513",
+      "previous_sibling": "response_9_1625186029100"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My Pleasure :)"
+              },
+              {
+                "text": "You're welcome :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "node_9_1625191053086",
+      "conditions": "@General_Words:(Thank you)",
+      "dialog_node": "response_6_1625191133764",
+      "previous_sibling": "response_10_1625191085336"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "وعليكم السلام ورحمة الله وبركاته"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_Arabic:(السلام عليكم ورحمة الله وبركاته)",
+      "dialog_node": "response_7_1625160685478"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "مساء النور"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_Arabic:(مساء الخير)",
+      "dialog_node": "response_7_1625160801866",
+      "previous_sibling": "response_6_1625160782473"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "title": "Welcome, we are glad you are here :) How was the ceremony?",
+            "options": [
+              {
+                "label": "Excellent",
+                "value": {
+                  "input": {
+                    "text": "Excellent"
+                  }
+                }
+              },
+              {
+                "label": "Good",
+                "value": {
+                  "input": {
+                    "text": "Good"
+                  }
+                }
+              },
+              {
+                "label": "Bad ",
+                "value": {
+                  "input": {
+                    "text": "Bad"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_10_1625150579565",
+      "conditions": "@Languages:English",
+      "dialog_node": "response_8_1625161307959",
+      "previous_sibling": "response_10_1625161293931"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "My name is Watson"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(What is your name?)",
+      "dialog_node": "response_8_1625188446409",
+      "previous_sibling": "response_1_1625188071541"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "يؤسفنا ذلك، ولكن جميعنا بحاجة للنقد البناء من أجل الأفضل بإذن الله ✦ ماهي اقتراحاتك؟ "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:سيئ",
+      "dialog_node": "response_8_1625189235793",
+      "previous_sibling": "response_9_1625162637886"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We are glad you liked it! Thank you :)"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:Excellent",
+      "dialog_node": "response_8_1625189768996",
+      "previous_sibling": "response_8_1625189235793"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm Fine Thank you :) What about you?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "مرحبا",
+      "conditions": "@General_Greeting_English:(How Are you)",
+      "dialog_node": "response_9_1625162132012",
+      "previous_sibling": "response_1_1625162103144"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "شكرًا لتقييمك! هل من اقتراحات؟"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_9_1625162542697",
+      "conditions": "@Rates:جيد",
+      "dialog_node": "response_9_1625162637886",
+      "previous_sibling": "response_1_1625162588042"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "أتحدث لغتان، العربية والإنجليزية"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1625162732115",
+      "conditions": "@General_Questions:(كم لغة تتحدث؟)",
+      "dialog_node": "response_9_1625186029100",
+      "previous_sibling": "response_1_1625185882809"
+    },
+    {
+      "type": "standard",
+      "title": "General Greeting ",
+      "metadata": {
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "@General_Greeting_Arabic || @General_Greeting_English",
+      "dialog_node": "مرحبا",
+      "previous_sibling": "node_4_1624990510679"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": ":هل قصدت",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "كل ما سبق خطأ"
+    },
+    "human_agent_assist": {
+      "prompt": ":هل قصدت"
+    }
+  },
+  "learning_opt_out": false,
+  "name": "Communication",
+  "language": "ar",
+  "description": ""
+}
