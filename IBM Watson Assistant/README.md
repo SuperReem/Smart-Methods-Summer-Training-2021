@@ -4,7 +4,7 @@
 
 <b>1- First it askes for choosing a language either Arabic or English</b> 🔠 <br>
 <b>2- Then it greets the person and asks for his/her opinion 💬</b> <br>
-<b>3- After that it respondes with an appropriate message based on the feedback 🎲</b>
+<b>3- After that it responds with an appropriate message based on the feedback 🎲</b>
 <br><br>
 ![Screen shot1](https://user-images.githubusercontent.com/53432438/124226278-852a4900-db11-11eb-8aa8-5d6309a59379.png)
 
