@@ -4,4 +4,4 @@ A chat bot built by using IBM Watson Assistant. It's for a robot that takes peop
 
 Image of the robot 🌟
 
-![E3NFY_hXEAMC0-_](https://user-images.githubusercontent.com/53432438/124223127-c7508c00-db0b-11eb-942f-0a43d4b9480e.jpeg)
+<img src="https://user-images.githubusercontent.com/53432438/124224789-fd433f80-db0e-11eb-9ad6-1ab44ba5a16e.JPEG" width="260" height="500" />
