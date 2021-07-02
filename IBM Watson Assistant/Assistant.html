@@ -1,0 +1,97 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css2?family=Almarai&display=swap" rel="stylesheet">
+    <title>Rating</title>
+    
+     <script>
+      window.watsonAssistantChatOptions = {
+          integrationID: "c0678aff-56b3-4130-8aa3-a2089ffb67f2", // The ID of this integration.
+          region: "eu-gb", // The region your integration is hosted in.
+          serviceInstanceID: "1155007e-1a5b-4915-8315-9edc90f09435", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+        document.head.appendChild(t);
+      });
+    </script>
+
+</head>
+<style>
+    .*{
+        margin:0px;
+        padding :0;
+    }
+    body {
+        background: url("background.png");
+        background-size: cover;
+        display: flex;
+    }    
+    #container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 800px;
+        align-self: center;
+    }
+    #textDiv{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .Arabic{
+        color:#fff;
+        font-size: 50px;
+        font-family: 'Almarai', sans-serif;
+
+    }
+    .English {
+        color:#fff;
+        font-size: 50px;
+        font-family: "Comic Sans MS", cursive, sans-serif; 
+    }
+    #img {
+        height: 180px;
+        width: 180px;
+        margin-top: 20px;
+    }
+     @media only screen and (max-width: 500px){
+         .text{
+             font-size: 36px;
+         }
+         #img {
+            height: 150px;
+            width: 150px;
+            margin-top: 20px;
+         }
+    }
+    @media screen and (max-width: 1370px) and (min-width: 501px){
+          #box{
+              width: 70%;
+          }
+         #container{
+            align-self: auto;
+            
+        }
+      }
+    
+</style>
+    
+    
+<body>
+
+    <div id="container"> 
+      <div id="textDiv">
+        <p class="text Arabic">شاركنا تقييمك
+        </p>
+        <p class="text English">Share us your opinion<br></p>
+      </div>
+        <img id="img" src="chatbot.png">
+    </div>
+    
+</body>
+
+</html>
