@@ -19,3 +19,9 @@
 <b>Some people may skip all of that and start chatting with Watson and ask questions like this 😂😂 :) So, I took that into account </b>
 <br><br>
 ![Screen Shot 2021-07-02 at 8 54 48 AM](https://user-images.githubusercontent.com/53432438/124227315-2239b180-db13-11eb-8395-7d5ee4b04d49.png)
+
+
+
+
+
+Robot Icon taken from: flaticon
