@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Connection</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background: #005C97;  
+            background: -webkit-linear-gradient(to top, #363795, #005C97);  
+            background: linear-gradient(to top, #363795, #005C97); 
+            background-attachment: fixed;
+            font-family:serif;
+        }
+        header{
+            display: flex;
+            flex-direction: row-reverse;
+        }
+        #logo{
+            width: 15rem;
+            height: 5rem;
+        }
+        #Outer-div{
+            display: flex;
+            background-color: rgb(255, 255, 255);
+            margin: auto;
+            width: 50%;
+            border-radius: 20px;
+            min-height: 26rem;
+            margin-top: 12rem;
+            box-shadow: 1px 1px 5px 1px white;
+            
+        }
+        #content-container{
+            width: 100%;
+            display: flex;
+            align-self: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+           
+        }
+        #form-container{
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            justify-content: center;
+            
+            
+        }
+        input{
+            border-top: none;
+            border-left: none;
+            border-right: none;
+            border-bottom :1px solid #c7c7c7;
+            margin-bottom: 1rem;
+        }
+        input:active{
+            border-color: transparent;
+        }
+        button{
+            border: none;
+            border-radius: 20px;
+            margin-top: 2rem;
+            background-color: rgb(238, 238, 238);
+            color:rgb(59, 59, 59);
+            padding: 0.5em;
+            font-size: 15px;
+        }
+        button:hover{
+            cursor: pointer;
+            background-color: rgb(224, 224, 224);
+        }
+       @media (max-width: 414px){
+        #Outer-div{
+            margin-top: 10rem;
+            width: 85%;
+           
+        }
+        #form-container{
+            width: 60%;
+        }
+       }
+       @media (min-width: 415px) and (max-width: 992px){
+        #Outer-div{
+            width: 70%
+        }
+        #form-container{
+            width: 40%;
+        }
+       }
+       @media (min-width: 993px) and (max-width: 1200px){
+        #Outer-div{
+            width: 60%
+        }
+       }
+    </style>
+</head>
+
+<body>
+    <div id="Outer-div">
+        <div id="content-container">
+            <lord-icon
+                src="https://cdn.lordicon.com/tclnsjgx.json"
+                trigger="loop"
+                colors="primary:#e4e4e4,secondary:#3080e8"
+                style="width:250px;height:250px">
+            </lord-icon>
+            
+            <div id="form-container">
+                <input type="text" placeholder="SSID">
+                <input type="password" placeholder="Password">
+                <button>Connect</button>
+            </div>
+        </div> 
+    </div>
+</body>
+ <script src="https://cdn.lordicon.com/libs/frhvbuzj/lord-icon-2.0.2.js"></script>
+</html>
